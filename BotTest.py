@@ -31,6 +31,7 @@ def handle_photo(message):
 
 
 
+
     doc.save('C:/Users/a.v.korolev/Desktop/Python/DocTest/.venv/example.docx')
     bot.reply_to(message, 'Фотография сохранена.')
 
