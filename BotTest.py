@@ -6,7 +6,7 @@ from docx.shared import Cm
 
 
 
-bot = telebot.TeleBot('5586469653:AAHF4JB8DQYgDQza5a7E_c7NJgORCnnxKa4')
+bot = telebot.TeleBot()
 doc = Document('C:/Users/a.v.korolev/Desktop/Python/example.docx')
 
 @bot.message_handler(commands=['start'])
